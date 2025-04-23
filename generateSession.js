@@ -2,8 +2,8 @@ const { TelegramClient } = require("telegram");
 const { StringSession } = require("telegram/sessions");
 const input = require("input"); // for CLI input
 
-const apiId = YOUR_API_ID; // Replace with your actual API ID
-const apiHash = "YOUR_API_HASH"; // Replace with your actual API Hash
+const apiId = 24620300; // Replace with your actual API ID
+const apiHash = "9a098f01aa56c836f2e34aee4b7ef963"; // Replace with your actual API Hash
 const stringSession = new StringSession(""); // Empty string initially
 
 (async () => {
